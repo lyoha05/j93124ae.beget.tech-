@@ -1,0 +1,115 @@
+
+
+body{
+    background-color: #278c8c;
+    margin: 0;
+}
+nav{
+    height: 100px;
+    background-color: #7e228e;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+h1{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0;
+    justify-content: center;
+    font-size: 200%; 
+    color: #7a6e23;
+    text-shadow: -1px -1px black,
+    1px -1px black,
+    -1px  1px black,
+    1px  1px black;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-stmainth.phpyle: normal;
+    width: auto;
+}
+
+.content{
+    height: 80vh;
+}
+
+.main_content{
+    display: flex;
+    
+    width: 100%;
+    justify-content: left;
+
+}
+
+.knowledge{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0 0 0 0;
+    display: inline-block;
+    list-style: none;
+    font-size: max(20px,1.5em);
+    align-self: center;
+}
+
+
+.menu{
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+    }
+.next_items{
+    margin: 20px 0 0 0;
+}
+
+
+.nav{
+    font-size: max(20px, 1.7em);
+    white-space: nowrap;
+    color: #7a6e23;
+    text-shadow: -1px -1px black,
+                  1px -1px black,
+                 -1px  1px black,
+                  1px  1px black;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 5px 0px 5px;
+}
+
+
+.logo_img{
+    
+}
+.footer_img{
+    height: auto;
+}
+
+.left_side{
+    margin: 0 0 0 0;
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+.char_img{
+    width: 15em;
+}
+
+footer{
+    background-color: #7e228e;
+    height: min(10vh,10%);
+    display: flex;
+    justify-content: space-between;
+}
+.footer_p{
+    align-self: center;
+	width: 30%
+}
+
+.footer_p_images{
+	 align-self: center;
+	 width: 70%
